@@ -159,7 +159,7 @@ tf32: false
 dataset_id_or_path: 'openai/gsm8k'
 
 # Training arguments
-max_steps: 100 # Original 450
+max_steps: 10 # Original 450
 gradient_accumulation_steps: 2
 gradient_checkpointing: true
 gradient_checkpointing_kwargs:
